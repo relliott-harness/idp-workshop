@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yournamehere-service-dependency
+  name: relliott57-service-dependency
   description: |
     My Example service which has something to do with APIs and database.
   links:
@@ -46,6 +46,6 @@ spec:
     - spotify
   providesApis:
     - petstore
-#  dependsOn:
-#    - component:default/yournamehere-service
+  dependsOn:
+    - component:default/relliott57-service
 #  system: yournamehere-system
