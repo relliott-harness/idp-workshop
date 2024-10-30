@@ -40,7 +40,7 @@ metadata:
     - yournamehere
 spec:
   type: service
-  owner: change-value
+  owner: relliott57
   lifecycle: experimental
   consumesApis:
     - spotify
