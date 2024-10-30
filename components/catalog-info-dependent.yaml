@@ -37,10 +37,10 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - relliott57
 spec:
   type: service
-  owner: relliott57
+  owner: TeamA
   lifecycle: experimental
   consumesApis:
     - spotify
