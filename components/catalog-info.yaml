@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: relliott57-service
+  name: robin57-service
   description: |
     My first service
   links:
@@ -36,7 +36,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - relliott57
+    - robin57
 spec:
   type: service
   owner: TeamA
