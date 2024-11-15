@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: relliott57-service-dependency
+  name: robin57-service-dependency
   description: |
-    My Example service which has something to do with APIs and database.
+    My Example service which is depedant on robin57-service
   links:
     - title: Website
       url: http://harness.io
@@ -37,7 +37,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - relliott57
+    - robin57
 spec:
   type: service
   owner: TeamA
@@ -47,5 +47,5 @@ spec:
   providesApis:
     - petstore
   dependsOn:
-    - component:default/relliott57-service
+    - component:default/robin57-service
 #  system: yournamehere-system
